@@ -1,20 +1,14 @@
 const bandNumber = 1;
-const bandName = " ";
-
-
-
-const takeNumber = function (bandName) {
-
-    
-    
-    for ( let i =0; i > bandNumber; i++){
-
-
-    }
 
 
 
 
+const takeNumber = function (d) {
+
+    bandNumber ++;
+
+    console.log(` Hello and welcome to the dopest show in the galaxy featuring ${scum} VS. ${under} place your bets now!!`);
+    return (bandNumber);
 }
 
 const scum = takeNumber("Galactic Scum")
