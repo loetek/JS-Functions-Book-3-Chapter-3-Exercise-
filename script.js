@@ -1,16 +1,18 @@
-const bandNumber = 1;
+let bandNumber = 1;
+let i = 0;
 
-
-
-
-const takeNumber = function (d) {
-
-    bandNumber ++;
-
-    console.log(` Hello and welcome to the dopest show in the galaxy featuring ${scum} VS. ${under} place your bets now!!`);
-    return (bandNumber);
+const takeNumber = function (bandName) {
+    
+    let message = `${bandNumber} . ${bandName}`;
+    i++;
+    bandNumber += i;
+    return message;
+    
+    /*
+        Write your awesome code here. See comments
+        below for what should be returned.
+    */
 }
-
 const scum = takeNumber("Galactic Scum")
 console.log(scum)  // This should print "1. Galactic Scum" in the console
 
