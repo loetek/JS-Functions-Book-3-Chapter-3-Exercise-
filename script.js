@@ -1,11 +1,11 @@
 let bandNumber = 1;
-let i = 0;
+
 
 const takeNumber = function (bandName) {
     
     let message = `${bandNumber} . ${bandName}`;
-    i++;
-    bandNumber += i;
+   
+    bandNumber += 1;
     return message;
     
     /*
@@ -18,3 +18,9 @@ console.log(scum)  // This should print "1. Galactic Scum" in the console
 
 const under = takeNumber("Underdogs")
 console.log(under)  // This should print "2. Underdogs" in the console
+
+const monkey = takeNumber("Monkey Sweat");
+console.log(monkey);
+
+const shitHead = takeNumber("Shit Head");
+console.log(shitHead);
